@@ -114,13 +114,13 @@ body {
                 font-weight: bold;
             }
 
-                /*HOVER A*/
-                .linksLista:hover {
-                    color: #FF6600;
-                    transition: 0.5s;
-                    border-radius: 4px;
-                    cursor: pointer;
-                }
+            /*HOVER A*/
+            .linksLista:hover {
+                color: #FF6600;
+                transition: 0.5s;
+                border-radius: 4px;
+                cursor: pointer;
+            }
 /*TERMINA BARRA DE NAVEGACION*/
 
 /* INICIA IMAGEN PRINCIPAL Y TITULO PRINCIPAL*/
@@ -219,6 +219,7 @@ body {
 
             .imagen {
                 width: 100%;
+                max-width: 450px;
             }
 
                 .botonComprar {
@@ -425,6 +426,10 @@ body {
     .producto {
         width: 50%;
     }
+
+    .imagen {
+        max-width: 330px;
+    }
 /*TERMINA SECCION PRODUCTOS*/
 
 }
@@ -508,6 +513,16 @@ body {
 /*INICIA SECCION PRODUCTOS*/
     .producto {
         width: 30%;
+    }
+
+    .imagen {
+        max-width: 300px;
+    }
+
+    .imagen:hover {
+        transform: scale(1.03);
+        transition: 1s;
+        cursor: pointer;
     }
 
         .infoProducto {
@@ -619,7 +634,14 @@ flex-direction: row;
 
     .imagen{
         padding: 24px;
+        max-width: 400px;
     }
-/*TERMINA SECCION PRODUCTOS*/
+
+    .imagen:hover {
+        transform: scale(1.05);
+        transition: 1s;
+        cursor: pointer;
+    }
+    /*TERMINA SECCION PRODUCTOS*/
 
 }
