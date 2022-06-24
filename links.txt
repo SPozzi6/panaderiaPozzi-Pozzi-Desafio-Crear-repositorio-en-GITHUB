@@ -1,0 +1,5 @@
+pages:
+https://spozzi6.github.io/panaderiaPozzi/
+
+repo:
+https://github.com/SPozzi6/panaderiaPozzi.git
